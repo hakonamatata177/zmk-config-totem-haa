@@ -40,7 +40,7 @@
         combo_tvp {
             timeout-ms = <100>;
             key-positions = <11 12 13>;
-            bindings = <&tog 0>;
+            bindings = <&tog 1>;
         };
     };
 
@@ -82,7 +82,7 @@
 
         layer_1 {
             bindings = <
-       &kp P      &kp Q   &kp Y   &kp E   &kp R        &trans  &trans  &trans  &trans  &trans
+       &kp Q      &kp Q   &kp Y   &kp E   &kp R        &trans  &trans  &trans  &trans  &trans
        &kp LSHFT  &kp A   &kp W   &kp D   &kp F        &trans  &trans  &trans  &trans  &trans
 &kp L  &kp N4     &kp N3  &kp S   &kp N1  &kp N2       &trans  &trans  &trans  &trans  &trans  &trans
                           &trans  &trans  &kp SPACE    &trans  &trans  &trans
