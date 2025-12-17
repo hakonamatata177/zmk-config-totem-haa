@@ -79,5 +79,14 @@
                      &kp A  &kp A  &kp A    &kp A  &kp A  &kp A
             >;
         };
+
+        layer_1 {
+            bindings = <
+       &kp P      &kp Q   &kp Y   &kp E   &kp R        &trans  &trans  &trans  &trans  &trans
+       &kp LSHFT  &kp A   &kp W   &kp D   &kp F        &trans  &trans  &trans  &trans  &trans
+&kp L  &kp N4     &kp N3  &kp S   &kp N1  &kp N2       &trans  &trans  &trans  &trans  &trans  &trans
+                          &trans  &trans  &kp SPACE    &trans  &trans  &trans
+            >;
+        };
     };
 };
