@@ -11,6 +11,7 @@
 // ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
 
 #include <behaviors.dtsi>
+#include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 
 #define BASE 0
@@ -44,6 +45,11 @@
         gamlayer {
             bindings = <&tog 2>;
             key-positions = <35 36 37>;
+        };
+
+        setingslayer {
+            bindings = <&tog 3>;
+            key-positions = <34 3 2 1 0 35 6 7 8 9>;
         };
     };
 
@@ -98,6 +104,15 @@
        &kp LSHFT  &kp A  &kp W      &kp D  &kp F        &trans  &kp K_PREV           &kp K_PLAY_PAUSE  &kp K_NEXT  &trans
 &kp B  &kp ESC    &kp D  &kp S      &kp C  &kp V        &trans  &trans               &trans            &trans      &trans  &trans
                          &kp N      &kp M  &kp SPACE    &trans  &trans               &trans
+            >;
+        };
+
+        setings {
+            bindings = <
+        &trans  &trans  &trans  &trans  &trans    &trans  &trans      &trans          &trans  &trans
+        &trans  &trans  &trans  &trans  &trans    &trans  &bt BT_CLR  &bt BT_CLR_ALL  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans      &trans          &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans      &trans
             >;
         };
     };
