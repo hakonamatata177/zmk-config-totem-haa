@@ -116,17 +116,17 @@
             bindings = <
               &kp Q  &kp W  &kp E  &kp R       &kp T        &kp Y          &kp U      &kp I         &kp O  &kp P
               &kp A  &kp S  &kp D  &kp F       &kp G        &kp H          &kp J      &kp K         &kp L  &ao
-&kp LEFT_WIN  &kp Z  &kp X  &kp C  &kp V       &kp B        &kp N          &kp M      &ae           &oe    &kp COMMA  &kp DOT
+&kp LEFT_WIN  &kp Z  &kp X  &kp C  &kp V       &kp B        &kp N          &kp M      &ae           &oe    &mt SEMICOLON COMMA  &mt COLON DOT
                             &to 0  &kp LSHIFT  &kp SPACE    &kp BACKSPACE  &kp LCTRL  &kp LEFT_ALT
             >;
         };
 
         numpad {
             bindings = <
-          &kp LS(N7)       &kp N7  &kp N8  &kp N9         &kp KP_MINUS        &kp EXCLAMATION       &kp DQT                &kp HASH    &kp DOLLAR        &kp PERCENT
-          &kp KP_ASTERISK  &kp N4  &kp N5  &kp N6         &kp KP_PLUS         &kp AT_SIGN           &kp LEFT               &kp UP      &kp RIGHT         &kp RIGHT_BRACKET
-&kp LGUI  &eksponent       &kp N1  &kp N2  &kp N3         &kp DOT             &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DOWN    &kp LEFT_BRACKET  &kp LEFT_BRACE     &kp RIGHT_BRACE
-                                   &kp N0  &kp LESS_THAN  &kp GREATER_THAN    &kp K_PREV            &kp K_PP               &kp K_NEXT
+                 &kp LS(N7)                  &kp N7  &kp N8  &kp N9         &kp KP_MINUS        &kp EXCLAMATION       &mt AT DOUBLE_QUOTES   &mt POUND POUND  &kp DOLLAR        &mt AMPERSAND PERCENT
+                 &mt APOSTROPHE KP_MULTIPLY  &kp N4  &kp N5  &kp N6         &kp KP_PLUS         &kp AT_SIGN           &kp LEFT               &kp UP           &kp RIGHT         &kp RIGHT_BRACKET
+&mt TILDE EQUAL  &eksponent                  &kp N1  &kp N2  &kp N3         &kp DOT             &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DOWN         &kp LEFT_BRACKET  &mt SEMICOLON LEFT_BRACE  &mt COLON RIGHT_BRACE
+                                                     &kp N0  &kp LESS_THAN  &kp GREATER_THAN    &kp K_PREV            &kp K_PP               &kp K_NEXT
             >;
         };
 
