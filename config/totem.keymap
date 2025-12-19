@@ -152,5 +152,14 @@
                         &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
+
+        navigations {
+            bindings = <
+     &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp LG(NUMBER_4)  &kp LG(NUMBER_5)    &kp  &kp  &kp  &kp  &kp
+     &kp               &kp LEFT_ARROW    &kp UP_ARROW      &kp RIGHT_ARROW   &kp                 &kp  &kp  &kp  &kp  &kp
+&kp  &kp               &kp LG(NUMBER_1)  &kp DOWN_ARROW    &kp LG(NUMBER_3)  &kp                 &kp  &kp  &kp  &kp  &kp  &kp
+                                         &kp               &kp               &kp                 &kp  &kp  &kp
+            >;
+        };
     };
 };
