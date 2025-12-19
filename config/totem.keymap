@@ -51,6 +51,11 @@
             bindings = <&kp ESCAPE>;
             key-positions = <1 0>;
         };
+
+        sdfsd {
+            bindings = <&tog 3>;
+            key-positions = <12 17>;
+        };
     };
 
     macros {
@@ -136,6 +141,15 @@
        &kp LSHFT  &kp A  &kp W      &kp D  &kp F        &trans          &kp K_PREV           &kp K_PLAY_PAUSE  &kp K_NEXT  &trans
 &kp B  &kp ESC    &kp D  &kp S      &kp C  &kp V        &trans          &trans               &trans            &trans      &trans  &trans
                          &kp N      &kp M  &kp SPACE    &trans          &trans               &trans
+            >;
+        };
+
+        layer_3 {
+            bindings = <
+        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans     &trans  &trans
+        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &kp COLON  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans     &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
     };
