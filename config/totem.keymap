@@ -147,7 +147,7 @@
         layer_3 {
             bindings = <
         &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans     &trans  &trans
-        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &kp COLON  &trans  &trans
+        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &kp COLON  &gresc  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans     &trans  &trans  &trans
                         &trans  &trans  &trans    &trans  &trans  &trans
             >;
